@@ -1,0 +1,93 @@
+.section{
+width: 81.25%;
+margin: 75px auto;
+}
+.section .headtitle{
+height: 129px;
+width: 545px;
+}
+
+.section .headtitle h2{
+    font-size: 40px;
+    margin-bottom: 27px;
+}
+.section .headtitle  span{
+    font-size: 20px;
+    color: #666666;
+}
+.section .box{
+    margin-top: 62px;
+    display:  flex;
+    flex-direction: row;
+    background-color: #1B1B1B;
+    border-radius: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.section .box .heading{
+height: 139px;
+width: 409px;
+}
+.section .box .heading h1,.desc{
+ color: #ffffff;
+
+}
+.section .box .input{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.section .box .input input{
+height: 48px;
+width: 385.67px;
+border: none;
+border-radius: 8px;
+}
+.section .box .input button{
+position: absolute;
+background-color:  #DC7000;
+color: #ffffff;
+height: 37px;
+width: 104px;
+border-radius: 8px;
+border: none;
+top: 51px;
+right: 6px;
+}
+@media screen and (max-width:1020px) {
+    .section .headtitle {
+        width: 407px;
+    }
+    .section .headtitle h2 {
+        font-size: 28px;  
+    }
+    .section .box{
+        height: 220px;
+    }
+    .section .box .heading{
+        width: 213px;
+    }
+    .section .box .input input{
+        width: 275px;
+    }
+    .section .box .input button{
+        top: 91px;
+    }
+}
+@media screen and (max-width:642px){
+    .section .box .input button{
+        top: 14px;
+    }   
+}
+@media screen and (max-width:473px)
+{
+    .section .headtitle {
+        width: 356px;
+    }
+    section .headtitle h2 {
+        font-size: 26px;  
+    }
+    .section .headtitle span {
+        font-size: 17px;
+    }
+}
