@@ -1,0 +1,187 @@
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+}
+
+header .header-info {
+    width: 50%;
+    background-color: rgba(226, 122, 12, 0.12);
+}
+header .header-info .container{
+    height: 57%;
+    margin:15% auto;
+    width: 63%;
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+header img {
+  width:50% ; 
+  height: auto;  
+}
+
+header .header-info .navigate {
+    
+    color: #222222;
+    font-size: 20px;
+}
+
+header .header-info .navigate .about {
+    color: #E47500;
+}
+
+header .header-info .container .title {
+    color: #222222;
+    font-size: 59px;
+    font-weight: bold;
+    
+}
+
+header .header-info .container .headline {
+    font-size: 22px;
+    font-weight: 400;
+    color: #525252;
+    
+}
+
+header .header-info .btn {
+    background-color: #FA8305;
+    color: #ffffff;
+
+    padding: 10px;
+    width: 142px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 24px;
+
+}
+header .header-info .btn:hover{
+    background-color: #000000;
+    cursor: pointer;
+}
+header .header-info .btn img {
+    height: 12px;
+    width: 12px;
+
+}
+.card{
+    width: 82%;
+    margin: 150px auto;
+} 
+.card h1{
+    margin:50px  0 ;
+}
+.card .cgroup{
+    display:grid;
+    grid-auto-flow: column;
+}
+.section1{
+    background-color: #F5F5F5;
+    padding-top: 60px;
+}
+.section1 {
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.section1  .right{
+width: 40%;
+}
+.section1  .right h3{
+     color: #DC7000;
+}
+.section1  .right span{
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold    ;
+}
+.section1  .right p{
+  font-size: 20px;
+  color: #222222;
+}
+.section2 {
+    width: 82%;
+    margin: 138px auto;
+}
+.section2 .teamcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section3-back{
+    background-color: #F5F5F5;
+    padding: 55px 0;
+}
+.section3{
+    width: 82%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.section3 .companygroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media screen and (max-width:1440px)
+{
+    .card .cgroup {
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: center;
+        row-gap: 40px;
+    }
+}
+@media screen and (max-width:1070px){
+    header{
+        flex-direction: column-reverse;
+    }
+    header img{
+        width: 100%;
+    }
+    header .header-info {
+        width: 100%;
+    }
+    header .header-info .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 548px;
+    }
+    header .header-info .container .headline {
+        font-size: 19px;
+    }
+    header .header-info .container .title{
+        font-size: 43px;
+    }
+}
+@media screen and (max-width:940px){
+    .section1 {
+       
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .section1 img{
+        width: 100%;
+    }
+    .section1 .right {
+        width: 401px;
+    }
+}
+@media screen and (max-width:756px){
+   .section2 .teamcard{
+    justify-content: center;
+   }
+}
+@media screen and (max-width:425px)
+{
+    .section1 .right {
+        width: 100%;
+    }
+}

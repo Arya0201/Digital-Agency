@@ -1,0 +1,26 @@
+.container {
+    height: 348px;
+    width: 378px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    display: flex;
+}
+.container:hover{
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card{
+    width: 271px;
+    margin: auto;
+}
+  .card-title{
+    font-size: 20px;
+    background-color: rgba(220, 66, 0, 0.11);
+    padding: 7px;
+    border-radius: 8px;
+    color: #DC1A00;
+}
+p{
+    color: #525252;
+    line-height: 20px;
+}

@@ -13,6 +13,8 @@ import { PrevDirective } from './prev.directive';
 import { SectionComponent } from './section/section.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
+import { CardComponent } from './card/card.component';
+import { TeamCardComponent } from './team-card/team-card.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +26,8 @@ import { AboutComponent } from './about/about.component';
     SectionComponent,
     FooterComponent,
     AboutComponent,
+    CardComponent,
+    TeamCardComponent,
   ],
   imports: [
     BrowserModule,

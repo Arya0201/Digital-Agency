@@ -75,6 +75,12 @@
     padding: 5px;
     margin: 0px 6px;
 }
+.footer .follow img:hover{
+    width: 26px;
+    height: 26px;
+    transition-duration: 2s;
+    cursor: pointer;
+}
 hr{
     margin: 40px 0;
     color: #D2D2D2;
