@@ -139,7 +139,7 @@
 .section1 .maintext {
   text-align: center;
   font-size: 32px;
-  line-height: 47px;
+  line-height: 5vw;
   width: 826px;
   font-weight: bold;
   margin: auto;
@@ -222,7 +222,7 @@
   font-family: Poppins;
   font-weight: bold;
   font-size: 32px;
-  line-height: 47px;
+  line-height: 3vw;
   color: #222222;
   vertical-align: top;
 }
@@ -403,7 +403,7 @@
   .img {
     height: 406px;
     width: 51%;
-    margin-top: 119px;
+    margin-top: 16vw;
     margin-left: 0;
     margin-bottom: 4px;
   }
@@ -462,7 +462,7 @@
 
 @media screen and (max-width:1140px) {
   .img {
-    height: 231px;
+    height: 26vw;
     /* width: 56%; */
   }
 
@@ -471,9 +471,9 @@
   }
 
   .dots {
-    width: 184px;
-    top: -69px;
-    right: -65px;
+    width: 27vw;
+    top: -11vw;
+    right: -13vw;
   }
 
   .dlines {
@@ -481,7 +481,7 @@
   }
 
   .dlines li {
-    font-size: 17px;
+    font-size: 3vw;
   }
 
   .cards .cards1,
@@ -495,7 +495,7 @@
     justify-content: center;
 }
 .project-section .project-img .imggroup1 #img3{
-  width: 377px;
+  width: 85vw;
 }
 
 .project-section .project-img .imggroup2 {
@@ -505,8 +505,7 @@
   display: none;
 }
 .project-section .project-img .imggroup2 img{
-  width: 386px;
-  height: 217px;
+  width: 85vw;
 }
 .section4{
   flex-direction: column-reverse;
@@ -527,8 +526,8 @@
 
 @media screen and (max-width:840px) {
   .section1 .maintext {
-    font-size: 30px;
-    width: 446px;
+    font-size: 4vw;
+    width: 55vw;
   }
 
   .section3 .headtitle {
@@ -538,19 +537,19 @@
   }
 
   .section2 .textbox .t1 {
-    width: 370px;
-    height: 130px;
+    width: 41vw;
+    height: 7vw;
     margin: auto;
-    font-size: 25px;
+    font-size: 3vw;
   }
 
   .section2 .textbox .t2 {
-    height: 120px;
-    width: 322px;
-    font-size: 16px;
-    line-height: 30px;
+    height: 13vw;
+    width: 38vw;
+    font-size: 2vw;
+    line-height: 3vw;
     margin: auto;
-    margin-top: 32px;
+    margin-top: 4vw;
   }
 
   .cards .cards1,
@@ -568,18 +567,13 @@
 
 @media screen and (max-width:607px) {
   .img {
-    height: 174px;
+    height: 27vw;
   }
 
   .section1 {
-    margin-top: 25px;
+    margin-top: 4vw;
   }
 
-  .mainsection .section1 .maintext {
-    font-size: 21px;
-    line-height: 36px;
-    width: 336px;
-  }
   .section4 .right h1 {
     width: 378px;
     font-size: 29px;
@@ -596,46 +590,87 @@
 }
 
 @media screen and (max-width:526px) {
+  .header{
+    height: 141vw;
+    }
   .header .left .text1 {
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 4.5vw;
     color: #E87D0E;
     font-weight: bold;
-    margin-bottom: 28px;
+    margin-bottom: 5vw;
   }
 
   .header .left .text2 {
     font-family: Poppins;
-    width: 435.63px;
-    height: 241px;
-    font-size: 54px;
+    width: 62vw;
+    height: 40vw;
+    font-size: 10vw;
     font-weight: bold;
-    line-height: 68.6px;
+    line-height: 11vw;
   }
 
   .header .left .text3 {
-    width: 436.63px;
-    height: 64px;
+    width: 56vw;
+    height: 15vw;
     font-family: Poppins;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 3.7vw;
+    line-height: 5.2vw;
     font-weight: bold;
     color: black;
     object-fit: cover;
-    margin-bottom: 81px;
+    margin-bottom: 17vw;
   }
+  .header .left .get{
+    width: 33vw;
+    height: 8vw;
+    padding-top: 2vw;
+    font-size: 3.5vw;
+}
   .project-section .textbox {
-    width: 443px;
+    width: 72vw;
+    height: 26vw;
 }
-}
-@media screen and (max-width:473px){
-  .project-section .textbox {
-    width: 344px;
-}
+
 .project-section .textbox h1{
-  font-size: 26px;
+  font-size: 8vw;
 }
 .project-section .textbox .t2{
-  font-size: 16px;
+  font-size: 4vw;
+}
+.project-section .project-img .imggroup1 img{
+  width: 85vw;
+}
+.section3 .headtitle {
+  height: 29vw;
+  width: 64vw;
+}
+.section3 .headtitle .title{
+  font-size: 6.5vw;
+  height: 7vw;
+  width: 47vw;
+}
+.section3 .headtitle .desc{
+  font-size: 3.4vw;
+  line-height: 4vw;
+}
+.section4 .right h1 {
+  width: 71vw;
+  font-size: 8vw;
+  margin: 2vw;
+}
+.section4 .right p {
+  width: 63vw;
+  font-size: 3.7vw;
+}
+.section4 .right span {
+  width: 51vw;
+  font-size: 3.7vw;
+  margin: 0vw;
+}
+.section4 .right button {
+  width: 29vw;
+  height: 9vw;
+  margin-top: 4vw;
 }
 }

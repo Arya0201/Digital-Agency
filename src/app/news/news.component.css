@@ -1,0 +1,79 @@
+header{
+    margin:90px 0;
+}
+header .serviceHeader {
+    margin: auto;
+    text-align: center;
+}
+header .serviceHeader .navigate {
+    
+    color: #222222;
+    font-size: 20px;
+}
+header .serviceHeader .navigate .about {
+    color: #E47500;
+}
+header .serviceHeader span{
+    color: #898989;
+}
+header .information{
+    width: 290px;
+    height: 34px;
+    margin: 40px  auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+header .information input{
+        width: 100%;
+        background-color: #F1F1F1;
+        border-radius: 4px;
+        border: none;
+}
+header .information img{
+    position: absolute;
+   top: 9px;
+    left: 14px;
+}
+header .information span{
+    color: #727272;
+    position: absolute;
+   top: 7px;
+    left:52px;
+}
+section{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+section .left{
+    width: 36%;
+}
+section .left .v1{
+    width: 100%;
+    border: 0.7px  solid;
+    border-bottom: #A5A5A5;
+    margin: 30px 0;
+    
+}
+section .right{
+    width: 41%;
+}
+@media screen and (max-width:1020px)
+{   section {
+    width: 80%;
+    align-items: center;
+    flex-direction: column;
+    
+}
+    section .left, section .right {
+        width: 100%;
+    }
+}
+@media screen and (max-width:302px) {
+    header .information{
+        width: 90%;
+    } 
+}

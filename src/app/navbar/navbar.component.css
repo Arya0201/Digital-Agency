@@ -82,4 +82,8 @@
         display: block;
         margin-right: 10px;
     }
+    .layer2 .logo{
+            font-size: 3vw;
+     }
+     
 }

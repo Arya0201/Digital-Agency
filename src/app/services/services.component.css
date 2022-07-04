@@ -1,0 +1,136 @@
+header{
+    margin:90px 0;
+}
+header .serviceHeader {
+    margin: auto;
+    text-align: center;
+}
+header .serviceHeader .navigate {
+    
+    color: #222222;
+    font-size: 20px;
+}
+header .serviceHeader .navigate .about {
+    color: #E47500;
+}
+header .serviceHeader span{
+    color: #898989;
+}
+header .information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 40px  auto;
+}
+.vl {
+    border-left: 1px solid #EEEFF2;
+    height: 100px;
+  }
+  
+  .s1{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+  }
+  .s1 .section{
+        width: 455px;
+    }
+  .s1 .section h1{
+    font-size: 35px;
+  }
+  .s1 .section p{
+    font-size: 18px;
+    color: #898989
+}
+  .s1 .section ul{
+    list-style-image: url(../../assets/services/tick.png);
+    align-items: center;
+    color: #898989
+  }
+  .s1 .section ul li::marker{
+    font-size: 1.5rem;
+  }
+  .s2{
+    width: 80%;
+    margin: 122px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .s2 img{
+    width: 40%;
+    height: 500px;
+  }
+  .s2 .left{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width: 40%;
+    height: 500px;
+  }
+  .s2 .left h1{
+    font-size: 35px;
+  }
+  .s2 .left p{
+    font-size: 18px;
+    color: #898989;
+  }
+  .s2 .left span{
+    background-color: #E47500;
+    color: #ffffff;
+    width: 140px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+  
+  }
+  @media screen and (max-width:1440px)
+  {
+   .s1{
+    justify-content: center;
+   }
+   .s2{
+    align-items: center;
+    flex-direction: column;
+   }
+     .new{
+      flex-direction: column-reverse;
+     }
+   .s2 .left{
+    height:fit-content;
+    width: fit-content;
+   }
+   .s2 img{
+    margin-top: 20px;
+    width: fit-content;
+    height: fit-content;
+   }
+  }
+  @media screen and (max-width:880px) {
+   
+      .s1 img{
+        width: 100%;
+      }
+      .s2 img{
+        width: 100%;
+      }
+  }
+  @media screen and (max-width:572px) {
+    .vl{
+        display: none;
+    }
+    header .information {
+        justify-content: space-between;
+    
+        flex-wrap: wrap;
+        background-color: #F4F4F4;
+        border-radius: 22px;
+    }
+  }

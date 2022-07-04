@@ -15,6 +15,12 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { CardComponent } from './card/card.component';
 import { TeamCardComponent } from './team-card/team-card.component';
+import { ServicesComponent } from './services/services.component';
+import { SCardComponent } from './s-card/s-card.component';
+import { NewsComponent } from './news/news.component';
+import { Newscard1Component } from './newscard1/newscard1.component';
+import { Newscard2Component } from './newscard2/newscard2.component';
+import { ContactComponent } from './contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +34,12 @@ import { TeamCardComponent } from './team-card/team-card.component';
     AboutComponent,
     CardComponent,
     TeamCardComponent,
+    ServicesComponent,
+    SCardComponent,
+    NewsComponent,
+    Newscard1Component,
+    Newscard2Component,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

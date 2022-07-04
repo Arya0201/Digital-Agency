@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 107px;
+}
+img{    height: 25px;
+    background-color: #FFECEC;
+    border-radius: 50%;
+    width: 25px;
+    padding: 9px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 49px;
+}
+.info #number{
+    font-size: 23px;
+    color: #000000;
+    font-weight: bold;
+}
+@media screen and (max-width:572px) {
+  .container{
+    margin: 10px;
+  }
+}

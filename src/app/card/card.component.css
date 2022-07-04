@@ -24,3 +24,23 @@ p{
     color: #525252;
     line-height: 20px;
 }
+
+@media screen and (max-width:710px) {
+    .container{
+        height: 51vw;
+        width: 53vw;
+    }
+    .card {
+        width: 41vw;
+    }
+    .card h2{
+        font-size: 4vw;
+    }
+    .card p{
+        font-size: 3vw;
+        line-height: 3.2vw;
+    }
+    .card-title{
+        font-size: 3.5vw;
+    }
+}

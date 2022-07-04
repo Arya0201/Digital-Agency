@@ -17,3 +17,16 @@ align-items: center;
 .box span{
   color:#8B8B8B;
 }
+@media screen and (max-width:710px) {
+  .card {
+    height: 33vw;
+    width: 40vw;
+    margin: 10px 0;
+}
+.card img{
+  width: 16vw;
+}
+.card .box{
+  font-size: 3vw;
+}
+}
