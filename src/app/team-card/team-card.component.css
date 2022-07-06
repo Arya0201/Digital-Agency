@@ -17,6 +17,10 @@ align-items: center;
 .box span{
   color:#8B8B8B;
 }
+.card img{
+width: 123px;
+height: 123px;
+}
 @media screen and (max-width:710px) {
   .card {
     height: 33vw;

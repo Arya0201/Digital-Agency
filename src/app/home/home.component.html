@@ -1,21 +1,4 @@
-<div class="header">
-  <div class="left">
-    <span class="text1">Digital Marketing</span>
-    <span class="text2">Work that we produce for our clients</span>
-    <span class="text3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-      the industry's standard.</span>
-    <span class="get" id="btn">Get more details</span>
-  </div>
-
-  <img class="img1" src="../../assets/home/download10.svg" >
-  <img class="img2" src="../../assets/home/download7.svg" >
-  <img class="img3" src="../../assets/home/download11.png" >
-  <img class="img4" src="../../assets/home/download6.svg" >
-  <img class="img5" src="../../assets/home/download3.svg" >
-  <img class="img6" src="../../assets/home/download4.svg" >
-  <img class="bgimg1" src="../../assets/home/download1.svg">
-
-</div>
+<app-header></app-header>
 <div class="mainsection">
 <div class="section1">
   <div class="maintext">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
@@ -23,106 +6,7 @@
     <span class="text1">Lorem Ipsum</span>
     <span class="text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</span>
   </div>
-  <div class="img">
-    <div class="dots">
-      <ul class="dlines">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <ul class="dlines">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <ul class="dlines">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <ul class="dlines">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <ul class="dlines">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <ul class="dlines">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <ul class="dlines">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <ul class="dlines">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-  </div>
+  <app-img></app-img>
 </div>
 </div>
 <div class="section2">
@@ -132,38 +16,10 @@
   </div>
   <div class="cards">
     <div class="cards1">
-    <div class="card">
-        <img src="../../assets/home/mobile.png" class="icon" alt="mobile">
-        <span>Mobile Game Development</span>
-        <img src="../../assets/home/arrow.png" class="arrow" alt="pc">
+      <app-dev-card [item]="d"  *ngFor="let d of devCard1"></app-dev-card>
     </div>
-    <div class="card">
-      <img src="../../assets/home/mobile.png" class="icon" alt="mobile">
-      <span>PC Game Development</span>
-      <img src="../../assets/home/arrow.png"class="arrow" alt="pc">
-  </div>
-  <div class="card">
-    <img src="../../assets/home/mobile.png"class="icon" alt="mobile">
-    <span>PS4 Game Development</span>
-    <img src="../../assets/home/arrow.png"class="arrow" alt="pc">
-</div>
-<div class="card">
-  <img src="../../assets/home/mobile.png"class="icon" alt="mobile">
-  <span>AR/VR Solutions</span>
-  <img src="../../assets/home/arrow.png" class="arrow" alt="pc">
-</div>
-  </div>
-  <div class="cards2">
-    <div class="card">
-        <img src="../../assets/home/ar2.png" class="icon" alt="mobile">
-        <span>Mobile Game Development</span>
-        <img src="../../assets/home/arrow.png" class="arrow" alt="pc">
-    </div>
-    <div class="card">
-      <img src="../../assets/home/3d.png" class="icon" alt="mobile">
-      <span>PC Game Development</span>
-      <img src="../../assets/home/arrow.png"class="arrow" alt="pc">
-  </div>
+    <div class="cards2">
+    <app-dev-card [item]="d"  *ngFor="let d of devCard2"></app-dev-card>
   </div>
 </div>
 </div>

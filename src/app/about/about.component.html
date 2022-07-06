@@ -15,10 +15,8 @@
 </header>
 <div class="card">
 <h1>Why work with us</h1>
-<div class="cgroup">
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
+<div class="cgroup" >
+  <app-card [item]="d" *ngFor="let d of data"></app-card>
 </div>
 </div>
 <div class="section1">
@@ -34,10 +32,7 @@
 <div class="section2">
   <h1>Our Team</h1>
     <div class="teamcard">
-      <app-team-card></app-team-card>
-      <app-team-card></app-team-card>
-      <app-team-card></app-team-card>
-      <app-team-card></app-team-card>
+      <app-team-card [item]="d" *ngFor="let d of team"></app-team-card>
     </div>
 </div>
  <div class="section3-back">

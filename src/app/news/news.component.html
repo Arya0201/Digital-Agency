@@ -1,9 +1,5 @@
 <header>
-    <div class="serviceHeader">
-        <span class="navigate">Home > <span class="about">News</span></span>
-        <h1>Lorem Ipsum is simply dummy text of the printing and.</h1>
-        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
-     </div>
+    <app-headerinfo [item]="data"></app-headerinfo>
      <div class="information">
         <input (mouseover)="hide()" (mouseout)="hide()" type="text">
         <img *ngIf="isShown" src="../../assets/news/search 1.png" id alt="search"> 
@@ -12,18 +8,10 @@
 </header>
 <section>
     <div class="left">
-        <app-newscard1></app-newscard1>
-        <div class="v1"></div>
-        <app-newscard1></app-newscard1>
+        <app-newscard1 [item]="d" *ngFor="let d of newscard1"></app-newscard1>
     </div>
     <div class="right">
-        <app-newscard2></app-newscard2>
-        <app-newscard2></app-newscard2>
-        <app-newscard2></app-newscard2>
-        <app-newscard2></app-newscard2>
-        <app-newscard2></app-newscard2>
-        <app-newscard2></app-newscard2>
-        <app-newscard2></app-newscard2>
+        <app-newscard2 [item]="d" *ngFor="let d of newscard2" ></app-newscard2>
     </div>
 </section>
 <app-section></app-section>

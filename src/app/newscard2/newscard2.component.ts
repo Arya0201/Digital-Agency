@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input} from '@angular/core';
 
 @Component({
   selector: 'app-newscard2',
@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./newscard2.component.css']
 })
 export class Newscard2Component implements OnInit {
-
+  @Input() item:any;
+  
   constructor() { }
 
   ngOnInit(): void {

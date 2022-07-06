@@ -21,6 +21,11 @@ import { NewsComponent } from './news/news.component';
 import { Newscard1Component } from './newscard1/newscard1.component';
 import { Newscard2Component } from './newscard2/newscard2.component';
 import { ContactComponent } from './contact/contact.component';
+import { HeaderComponent } from './header/header.component';
+import { HeaderinfoComponent } from './headerinfo/headerinfo.component';
+import { ImgComponent } from './img/img.component';
+import { DevCardComponent } from './dev-card/dev-card.component';
+import { DesSectionComponent } from './des-section/des-section.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,6 +45,11 @@ import { ContactComponent } from './contact/contact.component';
     Newscard1Component,
     Newscard2Component,
     ContactComponent,
+    HeaderComponent,
+    HeaderinfoComponent,
+    ImgComponent,
+    DevCardComponent,
+    DesSectionComponent,
   ],
   imports: [
     BrowserModule,

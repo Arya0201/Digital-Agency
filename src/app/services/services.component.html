@@ -1,15 +1,11 @@
 <header>
-     <div class="serviceHeader">
-        <span class="navigate">Home > <span class="about">Services</span></span>
-        <h1>Lorem Ipsum is simply dummy text of the printing and.</h1>
-        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
-     </div>
+      <app-headerinfo [item]="data"></app-headerinfo>
      <div class="information">
-        <app-s-card></app-s-card>
+        <app-s-card [item]="info1"></app-s-card>
         <div class="vl"></div>
-        <app-s-card></app-s-card>
+        <app-s-card [item]="info2"></app-s-card>
         <div class="vl"></div>
-        <app-s-card></app-s-card>
+        <app-s-card [item]="info3"></app-s-card>
      </div>
 </header>
 <section class="s1">
@@ -26,13 +22,7 @@
       </div>       
 </section>
 <section class="s2">
-   <div class="left">
-      <h1>Lorem Ipsum is simply dummy 
-         text dummy text </h1>
-         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-         <span>Read more</span>
-   </div>
+   <app-des-section [item]="Desc1"></app-des-section>
 <img src="../../assets/services/s3.png" alt="s2">
 </section>
 <section class="s2 new ">
@@ -46,13 +36,7 @@
    </div>
 </section>
 <section class="s2">
-   <div class="left">
-      <h1>Lorem Ipsum is simply dummy 
-         text dummy text </h1>
-         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-         <span>Read more</span>
-   </div>
+   <app-des-section [item]="Desc1"></app-des-section>
 <img src="../../assets/services/s4.png" alt="s2">
 </section>
 <app-section></app-section>

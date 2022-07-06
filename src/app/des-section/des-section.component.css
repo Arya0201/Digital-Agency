@@ -1,0 +1,31 @@
+ 
+ .left{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width: 62%;
+    height: 500px;
+  }
+   .left h1{
+    font-size: 35px;
+  }
+   .left p{
+    font-size: 18px;
+    color: #898989;
+  }
+   .left span{
+    background-color: #E47500;
+    color: #ffffff;
+    width: 140px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  @media screen and (max-width:1440px)
+  {
+    .left{
+        height:fit-content;
+        width: fit-content;
+       }
+  }
